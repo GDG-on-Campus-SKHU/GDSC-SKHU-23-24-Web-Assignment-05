@@ -1,4 +1,21 @@
+@font-face {
+  font-family: "NanumMyeongjo-Regular";
+  src: url(./resource/NanumMyeongjo-Regular.ttf);
+}
+@font-face {
+  font-family: "NanumMyeongjo-Bold";
+  src: url(./resource/NanumMyeongjo-Bold.ttf);
+}
+@font-face {
+  font-family: "NanumMyeongjo-ExtraBold";
+  src: url(./resource/NanumMyeongjo-ExtraBold.ttf);
+}
+
 :root{
   padding: 0;
   margin: 0;
+  background-image: url(./resource/back.jpeg);
+}
+div{
+  font-family: "NanumMyeongjo-ExtraBold";
 }
