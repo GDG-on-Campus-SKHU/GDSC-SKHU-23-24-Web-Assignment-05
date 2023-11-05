@@ -1,0 +1,96 @@
+@font-face {
+  font-family: "NanumMyeongjo-Regular";
+  src: url(./resource/NanumMyeongjo-Regular.ttf);
+}
+@font-face {
+  font-family: "NanumMyeongjo-Bold";
+  src: url(./resource/NanumMyeongjo-Bold.ttf);
+}
+@font-face {
+  font-family: "NanumMyeongjo-ExtraBold";
+  src: url(./resource/NanumMyeongjo-ExtraBold.ttf);
+}
+
+:root{
+  padding: 0;
+  margin: 0;
+  background-image: url(./resource/back.jpeg);
+}
+*{
+  font-family: "NanumMyeongjo-ExtraBold";
+}
+
+#root{
+  margin: 0 auto;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+}
+
+.Title{
+  font-size: 40px;
+  margin: 0 auto;
+  justify-content: center;
+  display:flex;
+}
+
+.BookTitle, .Writer,.BookGenre{
+  margin: 30px;
+}
+
+input{
+  width: 400px;
+  height: 33px;
+  border: none;
+}
+
+select{
+  width: 405px;
+  height: 33px;
+}
+
+.Add{
+  width: 450px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #CE9B71;
+  color: white;
+}
+.Add:hover{
+  background-color: #CCCCCC;
+}
+
+.X{
+  background-color: transparent;
+  border: transparent;
+}
+
+li{
+  list-style: none;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.BookList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table{
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+thead{
+  height: 70px;
+}
