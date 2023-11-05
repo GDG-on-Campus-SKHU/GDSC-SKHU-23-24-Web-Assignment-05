@@ -1,5 +1,3 @@
-// /src/components/BookInput.tsx
-
 import React, { useState } from 'react';
 import { Book, Genre } from '../types/bookTypes';
 
@@ -16,7 +14,7 @@ const BookInput: React.FC<BookInputProps> = ({ addBook }) => {
     event.preventDefault();
     if (title && author && genre) {
       const newBook: Book = {
-        id: Date.now(), // Using Date.now() just for uniqueness, not recommended for production
+        id: Date.now(), 
         title,
         author,
         genre,
@@ -40,7 +38,6 @@ const BookInput: React.FC<BookInputProps> = ({ addBook }) => {
         <div>
           <label>장르: 
             <select value={genre} onChange={(e) => setGenre(e.target.value as Genre)} required>
-              <option value="">장르 선택</option>
               <option value={Genre.HUMANITIES}>{Genre.HUMANITIES}</option>
               <option value={Genre.FANTASY}>{Genre.FANTASY}</option>
               <option value={Genre.SELF_IMPROVEMENT}>{Genre.SELF_IMPROVEMENT}</option>
