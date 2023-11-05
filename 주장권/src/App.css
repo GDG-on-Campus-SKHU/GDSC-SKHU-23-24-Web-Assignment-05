@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'NanumMyeongjo-Bold';
+  src: url('../public/NanumMyeongjo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumMyeongjo-Regular';
+  src: url('../public/NanumMyeongjo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NanumMyeongjo-ExtraBold';
+  src: url('../public/NanumMyeongjo-ExtraBold.ttf') format('truetype');
+}
+
+
+body {
+  background-image: url(./../public/back.jpeg);
+}
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.Title {
+  font-size: 30px;
+  font-family: 'NanumMyeongjo-ExtraBold';
+  font-weight: bold;
+}
+
+label {
+  font-family: 'NanumMyeongjo-ExtraBold';
+  font-weight: bold;
+}
+
+.addbookBtn {
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: lightsalmon;
+}
+
+.deleteBtn {
+  background-color: transparent;
+}
+
+input,
+select {
+
+  width: 300px;
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+table {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+tr,
+td,
+th {
+  font-family: 'NanumMyeongjo-ExtraBold';
+  font-weight: bold;
+  width: 90px;
+}
