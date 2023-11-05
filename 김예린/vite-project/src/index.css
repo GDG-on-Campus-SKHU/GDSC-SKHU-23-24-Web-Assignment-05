@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'NanumMyeongjo';
+  src: url('../public/NanumMyeongjo-Regular.ttf');
+  font-weight: normal;  
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumMyeongjob';
+  src: url('../public/NanumMyeongjo-Bold.ttf');
+   
+}
+@font-face {
+  font-family: 'NanumMyeongjoe';
+  src: url('../public/NanumMyeongjo-ExtraBold.ttf');
+ 
+}
+*{
+  font-family: 'NanumMyeongjo', 'NanumMyeongjob', 'NanumMyeongjoe' ; 
+  font-weight: bold;
+}
+body { 
+  margin: 0;
+  padding: 0;
+  background-image: url('../public/back.jpeg'); /* 사용하려는 이미지 파일 경로 */
+  background-size: cover; /* 이미지를 화면 크기에 맞게 조절 */
+  background-position: center; /* 이미지를 중앙으로 정렬 */
+  background-repeat: no-repeat; /* 이미지 반복 제거 */
+  background-attachment: fixed; /* 스크롤 시 이미지가 고정되도록 */
+} 
+
+table{
+   
+  margin: 10px auto;  
+  padding: 10px;
+  width: 70%;
+  display: block;   
+  text-align: center;
+  table-layout: fixed;
+}
+tbody{   
+   
+  word-wrap: break-word;
+}
+thead td{
+  padding:20px;
+}
+td{
+    
+   width: 32%;  
+   max-width: 190px; 
+    
+}
+td:last-child {
+  width: 4%; 
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+} 
+
+button {
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em; 
+  background-color: rgb(215, 156, 78);
+  cursor: pointer;  
+  width: 89%;
+  color: white;
+  margin-top: 20px;
+}
+button:hover {
+  background-color: gray; 
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} 
+  
+input{ padding: 10px; width: 80%; background-color: #fff; border: none;}
+select{
+    padding: 10px; width: 83%;
+}
+.in{width: 100%; margin: 10px; display: inline-block;   }
+.input{
+    margin-left: 10%; width: 80%;
+}
+.title{
+  font-size: 40px; text-align: center;
+}
+.Container{
+  width: 800px;
+  padding: 12px;  margin: 10px auto; 
+  
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -30%);
+}
