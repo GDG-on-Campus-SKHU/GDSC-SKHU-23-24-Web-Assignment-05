@@ -1,0 +1,70 @@
+@font-face{
+    font-family: 'nanum';
+    src: url('background/Nanum_Myeongjo/NanumMyeongjo-ExtraBold.ttf');
+}
+
+.root {
+    font-family: 'nanum',sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:baseline;
+    background-image: url('background/back.jpeg');
+    background-size: cover;
+    
+}   
+.container{
+    display: flex;
+    flex-direction: column;
+    width:480px;
+    justify-content: center;
+    align-items: center;
+}
+.ptitle p{
+    font-size:35px;
+}
+.input1{
+    display: flex;
+    width:100%;
+    margin-bottom: 15px;
+    align-items: center;
+}
+.input1 input{
+    flex:1;
+    height: 25px;
+   
+}
+.input1 select{
+    flex:1;
+    height: 30px;
+  
+}
+.button1{
+    width:100%;
+    height: 40px;
+    background-color: rgb(234, 185, 111);
+    color:white;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+thead{
+    text-align: center;
+}
+table td{
+    padding-left: 50px;
+    padding-right: 50px;
+    white-space: nowrap;
+    text-align: center;
+}
+table tr{
+    margin-bottom: 10px;
+}
+.xx{
+    border:none;
+    outline: none;
+}
+
+
+
+
