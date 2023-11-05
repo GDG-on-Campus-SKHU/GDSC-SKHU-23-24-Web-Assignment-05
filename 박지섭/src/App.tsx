@@ -1,8 +1,10 @@
-import './App.css'
+import BookRoot from './components/BookRoot';
 
 function App() {
   return (
-    <div>hello</div>
+    <div id="root">
+      <BookRoot />
+    </div>
   );
 }
 
