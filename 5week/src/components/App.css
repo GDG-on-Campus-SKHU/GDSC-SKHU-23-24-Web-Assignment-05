@@ -1,0 +1,99 @@
+
+* {
+  font-family: 'NanumMyeongjo'; 
+  font-size: 20px;
+  overflow-y: hidden;
+
+}
+
+.Title {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+.Input input,
+.Input input::placeholder {
+  border: none;
+  background-color: white;
+  width: 18em;
+  padding: 10px;
+}
+
+.Input input:focus {
+  background-color: white;
+  outline: none; 
+  border: 3px solid burlywood; 
+}
+
+
+select {
+  background-color: white !important;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  width: 18.3em;
+  margin-left: 20px;
+}
+
+input[type='button'] {
+  border: none !important;
+  background-color: #C89D79;
+  width: 22em;
+  color: white;
+}
+
+input[type='button']:hover {
+  background-color: grey !important; 
+  color: white;
+}
+
+table,th,td {
+  width: 22em;
+  text-align: center;
+  border: none !important;
+}
+
+#RemoveBtn {
+  width: 1.5em;
+  cursor:pointer;
+  border: none;
+  background-color:transparent;
+
+}
+
+th {
+  padding: 20px;
+}
+
+@font-face {
+  font-family: 'NanumMyeongjo';
+  src: url('../font/NanumMyeongjo-Regular.ttf');
+  font-weight: normal; /* 일반 굵기 */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumMyeongjo';
+  src: url('../font/NanumMyeongjo-Bold.ttf');
+  font-weight: bold; /* 굵게 */
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NanumMyeongjo';
+  src: url('../font/NanumMyeongjo-ExtraBold.ttf');
+  font-weight: bolder; /* 더 굵게 */
+  font-style: normal;
+}
+
+#root {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+  height: 100vh;
+  background-color: white;
+  margin-top: 2em;
+  background-image: url('src/img/back.jpeg');/*배경사진 사용*/
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
