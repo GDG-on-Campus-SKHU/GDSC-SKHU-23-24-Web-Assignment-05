@@ -1,0 +1,118 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: "NanumMyeongjo";}
+@font-face {
+  font-family:"NanumMyeongjo";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./resource/NanumMyeongjo-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family:"NanumMyeongjo-ExtraBold";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./resource/NanumMyeongjo-ExtraBold.ttf") format("ttf");
+}
+@font-face {
+  font-family:"NanumMyeongjo-Bold";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./resource/NanumMyeongjo-Bold.ttf") format("ttf");
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+body{
+  background-image: url(./resource/back.jpeg);
+}
+
+.Container{
+  width: 500px;
+text-align: center;
+}
+
+.Title{
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.input{
+  width: 100%;
+  text-align: center;
+}
+
+input{
+  font-family: "NanumMyeongjo-Bold";
+  height: 30px;
+  width: 65%;
+  outline: none;
+  border: none;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.Genre{
+  width: 74%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 65px;
+  margin-bottom: 20px;
+}
+
+select{
+  width: 100%;
+  height: 100%;
+  border: 1px solid  gray;
+  flex:1;
+  outline: none;
+  font-family: "NanumMyeongjo-Bold";
+}
+
+.BookList{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+  align-items: center;
+}
+
+table{
+  margin: 10px auto;  
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  table-layout: fixed;
+}
+
+tbody{
+  word-wrap: break-word;
+}
+
+button{
+  width: 370px;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: rgba(179, 100, 18);
+  color: white;
+  border-radius: 3px;
+}
+
+button.Remove{
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+  float: left;
+  align-items: center;
+  display: flex;
+  text-align: center;
+}
